@@ -1,0 +1,15 @@
+# Compiled files
+*.exe
+*.out
+*.o
+*.obj
+
+# Backup files
+*~
+*.swp
+
+# MacOS specific
+.DS_Store
+
+# VS Code specific
+.vscode/
