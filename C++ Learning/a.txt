@@ -1,0 +1,3 @@
+g++ hello.cpp -o out
+
+./out
