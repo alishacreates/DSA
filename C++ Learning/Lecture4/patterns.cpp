@@ -1,6 +1,13 @@
 #include<iostream>
 using namespace std;
 
+
+/*
+for n = 4;
+  1
+  22
+  333
+  4444*/
 int main(){
     int n;
     cout<<"enter n: ";
