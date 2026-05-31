@@ -1,3 +1,3 @@
-g++ p.cpp -o out
+g++ f.cpp -o out
 
 ./out
