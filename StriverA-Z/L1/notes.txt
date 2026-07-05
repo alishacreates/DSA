@@ -1,0 +1,39 @@
+arrays 
+- stores same data type values as a collection
+- stored in consecutive memory addresses, but cant say anything about the first index
+
+strings 
+- strings also stores every character in terms of indexes like arrays
+- string is storing character within itself 
+
+string s = "alisha";
+    int len = s.size();
+    s[len-1] = "z"; //this will give an error
+    cout<<s[len-1]<<endl;
+
+functions
+-functions are a set of code wich performs something for you
+- functions are used to modularise code
+- functions are used to increase readability
+- functions are used to use same code multiple times
+
+//types
+void -> does not returns anything
+void printName(){
+    cout<<"hello"
+}
+int main(){
+    printName();
+}
+
+return -> 
+parameterised -> 
+
+void printName(string name){
+    cout<<"hello"
+}
+int main(){
+    printName(name);
+}
+
+non-parameterised -> 
