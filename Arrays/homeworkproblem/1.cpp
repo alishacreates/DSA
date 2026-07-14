@@ -18,6 +18,5 @@ int main(){
     int size = 4;
     cout<<"The sum and product of the given array is"<<endl;
     SumandProduct(arr, size);
-
     return 0;
 }
