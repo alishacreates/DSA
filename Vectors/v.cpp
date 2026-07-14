@@ -5,8 +5,9 @@ using namespace std;
 int main(){
     vector<int> c;
     vector<int> vec = {1, 2, 3};
-    vector<int> vec(3, 0); //3 is the size of the vector and 0 are all the elements in that vector
+    vec.push_back(8);
+    cout<<" the size is " <<vec.size()<<endl; //kitne elements hain
+    cout<<vec.capacity()<<endl; //kitni jagah hai vector mei
 
-    cout<<vec[0];
     return 0;
 }
