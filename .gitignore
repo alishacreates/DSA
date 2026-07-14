@@ -1,16 +1,23 @@
-# Compiled files
-*.exe
+# Compiled binaries
+out
 *.out
+*.exe
 *.o
 *.obj
-*.hello
 
-# Backup files
+# Dependency files
+*.d
+
+# Backup/editor files
 *~
 *.swp
 
-# MacOS specific
+# macOS
 .DS_Store
 
-# VS Code specific
+# VS Code
 .vscode/
+
+# Build directories
+build/
+cmake-build-*/
