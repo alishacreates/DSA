@@ -14,7 +14,7 @@ int main(){
     for(int i = name.length() - 1; i >= 0 ; i++){
         reversed.push_back(name[i]);  
     }
-    cout<<"original string: "<< name;
+    cout<<"original string: "<< name<<endl;
     cout<<"reverse string: "<< reversed;
     return 0;
 }
