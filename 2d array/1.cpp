@@ -2,23 +2,13 @@
 using namespace std;
 
 int main(){
-    int arr[3][4];
-    int n = 3;
-    int m = 4;
-    cout<<"enter the elements: "<<endl;
-    for(int i = 0; i<=n-1; i++){
-        cout<<i+1<<" row"<<endl;
-        for(int j = 0; j<=m-1; j++){
-            cin>>arr[i][j];
-        }
-    } 
+    int arr[2][3] = {
+    {10, 20, 30},
+    {40, 50, 60}
+};
 
-    cout<<" the elements are: "<<endl;
-    for(int i = 0; i<=n-1; i++){
-        cout<<i<<" row"<<endl;
-        for(int j = 0; j<=m-1; j++){
-            cout<<arr[i][j]<<" ";
-        }
-    }
+arr[0][2];  // Row 0, column 2 → 30
+arr[1][0] ; // Row 1, column 0 → 40
+arr[1][1];  // Row 1, column 1 → 50
     return 0;
 }
